@@ -14,12 +14,12 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  background-image: url("photos/backgrounds-blank-blue-953214.jpg");
+  /* background-image:  url("photos/backgrounds-blank-blue-953214.jpg"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
+  background-color: #1e2733;
 
 }
 h5{
