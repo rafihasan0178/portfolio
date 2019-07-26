@@ -12,7 +12,7 @@
 }
 
 body {
-  background-image: url("photos/cbfe1d02876b359191e2032ec8e7bc84 (1).jpeg")
+  
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
   /* background-image:  url("photos/backgrounds-blank-blue-953214.jpg"); */
@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  
+  background-color: #1e2733;
 
 }
 h5{
@@ -110,7 +110,7 @@ img:hover {
 
 /* MENU STYLES */
 .menu-wrap {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: 1;
