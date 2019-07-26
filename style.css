@@ -96,7 +96,7 @@ img:hover {
 .btn {
   display: inline-block;
   border: none;
-  background: var(--primary-color);
+  background: #27303d;
   color: #fff;
   padding: 0.75rem 1.5rem;
   margin-top: 1rem;
@@ -135,7 +135,7 @@ img:hover {
   width: 60px;
   height: 60px;
   padding: 1rem;
-  background: var(--primary-color);
+  background: #27303d;
   display: flex;
   align-items: center;
   justify-content: center;
