@@ -43,7 +43,7 @@ header{
 #newsletter{
   padding:15px;
   color:#ffffff;
-  background:#35424a;
+  background:#35424a
 }
 
 #newsletter h1{
@@ -56,14 +56,11 @@ header{
 }
 
 #newsletter input[type="email"]{
-  padding-top:4px;
-  padding-bottom: 5px;
-  padding-left: 3px;
-  padding-right: 3px;
-  height:35px;
+  padding:4px;
+  height:250px;
   width:250px;
 }
-  
+
 h5{
   
     text-align: center;
