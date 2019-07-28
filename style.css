@@ -1,72 +1,111 @@
-/* CORE STYLES */
 :root {
-  --primary-color: rgba(13, 110, 139, 0.75);
-  --overlay-color: rgba(24, 39, 51 , 0.85);
-  --menu-speed: 0.75s;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
+    --primary-color: rgba(13, 110, 139, 0.75);
+    --overlay-color: rgba(24, 39, 51 , 0.85);
+    --menu-speed: 0.75s;
+  }
 body {
-  
-  
-  line-height: 1.4;
-  /* background-image:  url("photos/backgrounds-blank-blue-953214.jpg"); */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #1e2733;
-
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
 }
-h5{
-    font-family: 'Raleway';
-	  color:  white;
-    text-align: center;
-    font-size: 20px; 
-    background: grey, opacity: 0.5;
-  
-
-}
-
-.gallery {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-
-}
-
-img {
-
-	width: 300px;
-	height: 200px;
-	margin: 15px;
-  transition: all 1s;
-  
-
-}
-img:hover {
-	transform: scale(1.1);
-}
-
-
 .container {
-  max-width: 960px;
+  
   margin: auto;
   overflow: hidden;
+  width:80%;
+    
   padding: 0 3rem;
 }
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:3px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+    text-align: center;
+  }
+  header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+  }
+  
+
+/* Showcase */
+#showcase{
+    min-height:400px;
+    background:url('photos/glenn-carstens-peters-SL5d_8ywAAA-unsplash.jpg') no-repeat 0 -900px;
+    text-align:center;
+    color:#ffffff;
+  }
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding-top:4px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  height:35px;
+  width:250px;
+}
+  
+h5{
+  
+    text-align: center;
+    font-size: 20px;
+  
+  
+
+}
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+  
+  img {
+  
+    width: 200px;
+    height: auto;
+    margin: 15px;
+    transition: all 1s;
+    
+  
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+  #showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+  }
+  
+  #showcase p{
+    font-size:20px;
+  }
+  
 
 .showcase {
 
-  
-  
-  position: relative;
+ position: relative;
 }
 
 .showcase:before {
@@ -137,7 +176,7 @@ img:hover {
   left: 0;
   z-index: 1;
   width: 60px;
-  height: 60px;
+  height: 72px;
   padding: 1rem;
   background: #27303d;
   display: flex;
@@ -254,25 +293,19 @@ img:hover {
   transition: color 0.4s ease;
 }
 
-#iconM
-{
-  align-self: center;
+.button_1{
+  height:35px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
 }
 
-.icon 
-{
-  width: 50px;
-  height: auto;
-  
- 
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
 }
-.iconU
-{
-  width: 60px;
-  height: auto;
-  
-}
-a {
-  text-decoration: none;
-}
-
