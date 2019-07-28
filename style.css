@@ -39,6 +39,7 @@ header{
     color:#ffffff;
   }
 
+
 /* Newsletter */
 #newsletter{
   padding:15px;
@@ -57,7 +58,7 @@ header{
 
 #newsletter input[type="email"]{
   padding:4px;
-  height:250px;
+  height:25px;
   width:250px;
 }
 
