@@ -40,27 +40,9 @@ header{
   }
 
 
-/* Newsletter */
-#newsletter{
-  padding:15px;
-  color:#ffffff;
-  background:#35424a;
-}
 
-#newsletter h1{
-  float:left;
-}
 
-#newsletter form {
-  float:right;
-  margin-top:15px;
-}
 
-#newsletter input[type="email"]{
-  padding:4px;
-  height:25px;
-  width:25%px;
-}
 
 h5{
   
@@ -291,14 +273,6 @@ h5{
   transition: color 0.4s ease;
 }
 
-.button_1{
-  height:35px;
-  background:#e8491d;
-  border:0;
-  padding-left: 20px;
-  padding-right: 20px;
-  color:#ffffff;
-}
 
 footer{
   padding:20px;
