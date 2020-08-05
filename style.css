@@ -34,7 +34,11 @@ header{
 /* Showcase */
 #showcase{
     min-height:400px;
+<<<<<<< HEAD
+    background:url('yejpg') no-repeat 0 -3100px;
+=======
     background:url('photos/pawel-czerwinski-OALPS7O3jXs-unsplash.jpg') no-repeat 0 -3100px;
+>>>>>>> master
     text-align:center;
     color:#ffffff;
   }
