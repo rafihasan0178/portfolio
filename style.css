@@ -1,96 +1,38 @@
+/* CORE STYLES */
 :root {
-    --primary-color: rgba(13, 110, 139, 0.75);
-    --overlay-color: rgba(24, 39, 51 , 0.85);
-    --menu-speed: 0.75s;
-  }
-body {
-  font: 15px/1.5 Arial, Helvetica,sans-serif;
-  padding:0;
-  margin:0;
-  background-color:#f4f4f4;
+  --primary-color:  rgba(0, 0, 0, 0.75);
+  --overlay-color: rgb(255, 255, 255);
+  --menu-speed: 0.75s;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
 .container {
-  
+  max-width: 960px;
   margin: auto;
   overflow: hidden;
-  width:80%;
-    
   padding: 0 3rem;
 }
-header{
-    background:#35424a;
-    color:#ffffff;
-    padding-top:3px;
-    min-height:70px;
-    border-bottom:#e8491d 3px solid;
-    text-align: center;
-  }
-  header .highlight, header .current a{
-    color:#e8491d;
-    font-weight:bold;
-  }
-  
-
-/* Showcase */
-#showcase{
-    min-height:400px;
-    background:url('photos/pawel-czerwinski-OALPS7O3jXs-unsplash.jpg') no-repeat 0 -3100px;
-    text-align:center;
-    color:#ffffff;
-  }
-
-
-
-
-
-
-h5{
-  
-    text-align: center;
-    font-size: 20px;
-  
-  
-
-}
-
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  
-  }
-  
-  img {
-  
-    width: 200px;
-    height: auto;
-    margin: 15px;
-    transition: all 1s;
-    
-  
-  }
-  img:hover {
-    transform: scale(1.1);
-  }
-  #showcase h1{
-    margin-top:100px;
-    font-size:55px;
-    margin-bottom:10px;
-  }
-  
-  #showcase p{
-    font-size:20px;
-  }
-  
 
 .showcase {
-
- position: relative;
+  background: var(--primary-color) transparent;
+  color: #fff;
+  height: 100vh;
+  position: relative;
 }
 
 .showcase:before {
   content: '';
-
+  background: url('photos/BG.jpg') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -116,24 +58,10 @@ h5{
   font-size: 1.3rem;
 }
 
-.btn {
-  display: inline-block;
-  border: none;
-  background: rgb(67, 82, 95);
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  margin-top: 1rem;
-  transition: opacity 1s ease-in-out;
-  text-decoration: none;
-}
-
-.btn:hover {
-  opacity: 0.7;
-}
 
 /* MENU STYLES */
 .menu-wrap {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
@@ -156,9 +84,9 @@ h5{
   left: 0;
   z-index: 1;
   width: 60px;
-  height: 72px;
+  height: 60px;
   padding: 1rem;
-  background: #27303d;
+  background: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,7 +96,7 @@ h5{
 .menu-wrap .hamburger > div {
   position: relative;
   flex: none;
-  width: 50%;
+  width: 100%;
   height: 2px;
   background: #fff;
   display: flex;
@@ -263,7 +191,7 @@ h5{
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   padding: 1rem;
 }
 
@@ -273,7 +201,38 @@ h5{
   transition: color 0.4s ease;
 }
 
+/* Gallary */ 
 
+h5{
+
+  text-align: center;
+  font-size: 20px;
+
+
+
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+img {
+
+  width: 200px;
+  height: auto;
+  margin: 15px;
+  transition: all 1s;
+  
+
+}
+img:hover {
+  transform: scale(1.1);
+}
+
+/* footer */
 footer{
   padding:20px;
   margin-top:20px;
