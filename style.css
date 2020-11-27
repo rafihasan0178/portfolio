@@ -1,7 +1,7 @@
 /* CORE STYLES */
 :root {
-  --primary-color: rgba(27, 154, 228, 0.75);
-  --overlay-color: rgba(24, 39, 51 , 0.85);
+  --primary-color: linear-gradient(to right bottom, #000000, #131313, #201f1f, #2c2b2c, #393839, #3e3d3f, #434346, #48494d, #45494d, #41484c, #3e484b, #3c4848);
+  --overlay-color: linear-gradient(to right bottom, #000000, #131313, #201f1f, #2c2b2c, #393839, #3e3d3f, #434346, #48494d, #45494d, #41484c, #3e484b, #3c4848);
   --menu-speed: 0.75s;
 }
 
@@ -32,7 +32,7 @@ body {
 
 .showcase:before {
   content: '';
-  background: url('photos/BG.jpg') no-repeat center center/cover;
+  background: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -48,7 +48,7 @@ body {
   justify-content: center;
   text-align: center;
   height: 100%;
-  background: linear-gradient(to right bottom, #d83fbd, #b36fe6, #8791fb, #61aaff, #5bbef8, #65c0f9, #6ec1f9, #76c3fa, #8cb2ff, #b59bf7, #de7ed9, #fb5faa);
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -240,7 +240,7 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:#e8491d;
+  background-color: darkgray;
   text-align: center;
 }
 
